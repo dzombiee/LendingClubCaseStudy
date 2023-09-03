@@ -1,52 +1,29 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> This project involves applying Exploratory Data Analysis (EDA) techniques to assist a consumer finance company specializing in lending loans to customers. The primary goal is to identify indicators and patterns that predict loan default, helping the company make informed lending decisions to minimize financial losses. By understanding the driving factors behind loan defaults, the company aims to reduce credit loss, optimize lending strategies, and improve overall decision-making in loan approvals.
 
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [Packages Used](#packages-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+**Background:** This project centers around a consumer finance company specializing in urban lending, striving to balance business growth and minimize financial losses due to loan defaults. 
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+**Business Problem:** The core challenge is to identify loan applicants likely to default, thereby enabling the company to make more informed lending decisions. The primary goal is to reduce credit loss and optimize lending strategies.
+
+**Dataset:** The project utilizes historical data on past loan applicants, including their repayment outcomes. This dataset provides valuable insights into applicant profiles and their loan repayment behavior, serving as the foundation for exploratory data analysis (EDA) and risk analytics.
+
+## Packages Used
+- matplotlib
+- seaborn
+- pandas
+- numpy
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+* emp_length more than 10 years and annual_inc above 60k
+* int_rate between 20%-24% and annual_inc above 60k
+* emp_length more than 10 years and loan_amnt greater than 14k
+* verified loan and loan_amnt above 16k
+* term as 60 months and loan_amnt more than between 14k-16k
+* grade is F and loan_amnt greater than 15k
